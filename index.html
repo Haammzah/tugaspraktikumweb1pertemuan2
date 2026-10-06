@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absensi Mahasiswa Teknik Informatika</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 35px;
+            color: #000;
+        }
+
+        .container {
+            border: 1px solid #888;
+            padding: 22px 28px;
+            width: fit-content;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 22px;
+            margin: 0 0 15px 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 2px 5px;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        th {
+            font-weight: normal;
+        }
+
+        .main-header {
+            font-weight: bold;
+        }
+
+        .name {
+            text-align: left;
+            white-space: nowrap;
+        }
+
+        input[type="checkbox"] {
+            width: 13px;
+            height: 13px;
+            margin: 1px;
+        }
+
+        .nav {
+            text-align: center;
+            margin-top: 18px;
+        }
+
+        .nav a {
+            color: #0000ee;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Absensi Mahasiswa Teknik Informatika</h1>
+
+        <table>
+            <tr>
+                <th rowspan="2">NO</th>
+                <th rowspan="2">NPM</th>
+                <th rowspan="2">NAMA</th>
+                <th colspan="7" class="main-header">PERTEMUAN</th>
+            </tr>
+            <tr>
+                <th>1<br>9-Feb</th>
+                <th>2<br>16-Feb</th>
+                <th>3<br>23-Feb</th>
+                <th>4<br>2-Mar</th>
+                <th>5<br>9-Mar</th>
+                <th>6<br>16-Mar</th>
+                <th>7<br>23-Mar</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>1111111111</td>
+                <td class="name">Mama Ghufron</td>
+                <td><input type="checkbox" name="hadir1_1"></td>
+                <td><input type="checkbox" name="hadir1_2"></td>
+                <td><input type="checkbox" name="hadir1_3"></td>
+                <td><input type="checkbox" name="hadir1_4"></td>
+                <td><input type="checkbox" name="hadir1_5"></td>
+                <td><input type="checkbox" name="hadir1_6"></td>
+                <td><input type="checkbox" name="hadir1_7"></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>2222222222</td>
+                <td class="name">Saya Satpol</td>
+                <td><input type="checkbox" name="hadir2_1"></td>
+                <td><input type="checkbox" name="hadir2_2"></td>
+                <td><input type="checkbox" name="hadir2_3"></td>
+                <td><input type="checkbox" name="hadir2_4"></td>
+                <td><input type="checkbox" name="hadir2_5"></td>
+                <td><input type="checkbox" name="hadir2_6"></td>
+                <td><input type="checkbox" name="hadir2_7"></td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>3333333333</td>
+                <td class="name">Pak Vincent</td>
+                <td><input type="checkbox" name="hadir3_1"></td>
+                <td><input type="checkbox" name="hadir3_2"></td>
+                <td><input type="checkbox" name="hadir3_3"></td>
+                <td><input type="checkbox" name="hadir3_4"></td>
+                <td><input type="checkbox" name="hadir3_5"></td>
+                <td><input type="checkbox" name="hadir3_6"></td>
+                <td><input type="checkbox" name="hadir3_7"></td>
+            </tr>
+        </table>
+
+        <div class="nav">
+            <a href="form.html">Ke Form Mahasiswa</a>
+        </div>
+    </div>
+
+</body>
+</html>
